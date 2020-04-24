@@ -1,0 +1,417 @@
+/* combining all_exported/static/css//reset.css */
+/* v1.0 | 20080212 */
+/*
+http://meyerweb.com/eric/tools/css/reset/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* combining all_exported/static/css//backend.css */
+/*
+This stylesheet actually shows up on the frontend as well as the backend.
+
+blues from http://colorschemedesigner.com/#3s11TvZvWw0w0
+lightest:       63ADD0
+lighter:   3CA0D0
+darker:    086FA1
+darkest:        034769
+greenish dark:  235D79
+
+gray: E3E3E3
+*/
+
+body {
+    background-color: #E3E3E3;
+    font-family: georgia,verdana,arial;
+}
+
+p {
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+
+#header {
+    background-color: #3CA0D0;
+    height: 90px;
+}
+
+#logos {
+    padding: 15px;
+}
+
+#logos a {
+    background-color: #3CA0D0;
+    z-index: 1;
+    position: relative;
+}
+
+#logotext {
+    color: white;
+    font-size: 2.5em;
+    font-family: "trebuchet ms",arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#subtitle {
+    margin-top: 5px;
+    color: white;
+    font-size: 1em;
+    font-family: "trebuchet ms",arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#messagediv {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: #63ADD0;
+    width: 50%;
+}
+
+#tabsdiv {
+    height: 19px;
+}
+
+#tabs {
+    margin-left: 40px;
+    font-family: georgia,verdana,arial;
+}
+
+#tabs li {
+    background-color: #086FA1;
+    display: inline;
+    margin-left: 5px;
+    font-size: .9em;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    height: 23px;
+}
+
+#tabs a {
+    color: white;
+    text-decoration: none;
+}
+
+.activetab {
+    font-weight: bold;
+    background-color: #E3E3E3 !important;
+}
+
+#ch-block {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    margin-right: -520px;
+}
+
+#ch-block-img {
+    height: 90px;
+    width: 728px;
+    box-shadow: 0px 0px 1px #333;
+}
+
+#login_info {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.loginInfoButton {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.linkBarText {
+    font-size: .8em;
+}
+
+.linkBarText a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+#main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: white;
+}
+
+#footer {
+    margin-top: 15px;
+    font-size: .7em;
+    color: #666666;
+    text-align: center;
+}
+
+#footer a {
+    color: black;
+    font-size: 1.0em;
+}
+
+.label1 {
+    padding: 3px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.formlabel {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+.errmsg {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: red;
+}
+
+.listtable {
+    margin-top: 15px;
+}
+
+.listtable tr td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 16px;
+    border: none;
+}
+
+.listtable tr th {
+    border: none;
+    border-bottom: solid black 2px;
+    padding: 4px;
+}
+
+.zebra_table_altcolor td {
+    background-color: #DFF3FF;
+}
+
+#codinghire_info {
+    background-color: #FFC873;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 600px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+}
+
+.IN-widget {
+    margin-left: 40px;
+}/* combining all_exported/static/css//commoneditornew.css */
+#editor_container {
+    width: 100%;
+}
+
+#edit_area_text_div {
+    float: left;
+}
+
+#message_div {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#alert_bar {
+    background: #acff59;
+    font-size: 2em;
+    margin: 0px;
+    padding: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+#chat_value {
+    width: 236px;
+    font-size: 16px;
+    font-family: georgia, verdana, arial;
+}
+
+#sidebar_div {
+    float: right;
+    width: 240px;
+}
+
+.bluediv {
+    background-color: #E1F2F9;
+    padding: 10px;
+    overflow: auto;
+    border: 1px solid #888888;
+}
+
+.chtmsg {
+    padding-bottom: 7px;
+}
+
+.italicchat {
+    font-style: italic;
+}
+
+.chat_label {
+    font-weight: bold;
+    margin: 3px;
+}
+
+#conn_error {
+    text-align: left;
+    background-color: #ffaa99;
+    margin: 0px;
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid #888888;
+}
+
+.arrowlink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main {
+    padding: 20px;
+}
+
+#docnamediv {
+    position: absolute;
+    top: 43px;
+    left: 224px;
+}
+
+#docnamediv .twitter-share-button {
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#doc_link_bar {
+    position: absolute;
+    top: 5px;
+    left: 215px;
+    padding: 5px;
+    background-color: #3CA0D0;
+    z-index: 1;
+}
+
+#langSelect {
+    font-size: 16px;
+    font-family: georgia, verdana, arial;
+}
+
+#docnamespan {
+    cursor: pointer;
+}
+
+#footer {
+    margin-left: 60px;
+    text-align: left;
+}
+
+#usage-reason-survey {
+    background-color: #FFE2A3;
+    padding: 10px 30px 0px 30px;
+    height: 76px;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    font-family: helvetica;
+    text-align: center;
+    z-index: 1;
+}
+
+#usage-reason-survey-top-text {
+    font-size: .8em;
+}
+
+#usage-reason-buttons {
+    margin-top: 10px;
+}
+
+#usage-reason-buttons button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#usage-reason-survey-bottom-text {
+    font-size: .8em;
+    margin-top: 8px;
+    color: #666;
+}

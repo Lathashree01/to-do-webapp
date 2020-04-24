@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> To-do list </title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/script.js">
+
+  </script>
+</head>
+
+<body id="body" onload="displayDate()">
+  <h1 id="heading">To-Do List </h1>
+  <h4 id="date"></h4>
+  <p> Enter text into input field to add items to the To-Do list (max. 50 characters)</p>
+  <p id="add">Click item to mark it as complete </p>
+  <p id="remove">Click on 'x' to remove the item from the list</p>
+
+  <input type="text" name="item" value="" placeholder="Enter new item . . . " id="text" maxlength="50" class="form-control">
+  <button id="addButton" class="glyphicon glyphicon-pencil btn btn-primary" onclick="addItem()">ADD</button>
+  <div id="showlist" style="display:none;">
+
+  </div>
+</body>
+
+</html>
